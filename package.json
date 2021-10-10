@@ -4,10 +4,12 @@
   "private": true,
   "homepage": "https://m-kos.github.io/auto-mash/",
   "dependencies": {
+    "@date-io/date-fns": "^2.11.0",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
     "@fontsource/roboto": "^4.5.1",
     "@mui/icons-material": "^5.0.3",
+    "@mui/lab": "^5.0.0-alpha.50",
     "@mui/material": "^5.0.3",
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.11.4",
