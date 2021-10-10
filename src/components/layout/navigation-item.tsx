@@ -6,9 +6,10 @@ import { LinkItem } from '../../types/link-item'
 
 interface Props {
   item: LinkItem
+  isMobile?: boolean
 }
 
-export const NavigationItemComponent = React.memo<Props>(function NavigationItemComponent({ item }) {
+export const NavigationItemComponent = React.memo<Props>(function NavigationItemComponent({ item, isMobile = false }) {
   const history = useHistory()
   const theme = useTheme()
 
@@ -30,7 +31,7 @@ export const NavigationItemComponent = React.memo<Props>(function NavigationItem
       color="textPrimary"
       variant="subtitle1"
     >
-      <Typography variant="body1">{item.name}</Typography>
+      <Typography variant={isMobile ? 'h5' : 'body1'}>{item.name}</Typography>
     </Link>
   )
 })
