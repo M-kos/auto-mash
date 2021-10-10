@@ -12,6 +12,7 @@ export const Header = React.memo(function Header() {
         sx={{ p: 2, backgroundColor: (theme: Theme) => theme.palette.grey[600] }}
         id="back-to-top-anchor"
         elevation={0}
+        position="static"
       >
         <Container maxWidth="xl">
           <Box display="flex" alignItems="center" justifyContent="space-between">

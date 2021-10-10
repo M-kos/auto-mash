@@ -28,7 +28,7 @@ export const NavigationItemComponent = React.memo<Props>(function NavigationItem
       }}
       onClick={onLinkClick}
       underline={isActive ? 'always' : 'hover'}
-      color="textPrimary"
+      color="common.white"
       variant="subtitle1"
     >
       <Typography variant={isMobile ? 'h5' : 'body1'}>{item.name}</Typography>
