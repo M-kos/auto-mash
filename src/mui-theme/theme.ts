@@ -39,7 +39,6 @@ export const theme = createTheme({
   },
   typography: {
     h1: {
-      fontSize: '2.125rem',
       fontWeight: 500,
       lineHeight: 1.235,
       letterSpacing: '0.00735em',
